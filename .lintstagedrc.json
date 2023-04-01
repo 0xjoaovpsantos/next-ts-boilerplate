@@ -1,0 +1,9 @@
+{
+  "*.[tj]s?(x)": [
+    "eslint --fix",
+    "git add"
+  ],
+  "*.(spec|test).[tj]s?(x)": [
+    "yarn unit-test"
+  ]
+}
